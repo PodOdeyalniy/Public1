@@ -20,7 +20,7 @@ int main()
 
 	// zd 1
 
-	double x;
+	int x;
 	cin >> x;
 	double y;	
 	cin >> y;
