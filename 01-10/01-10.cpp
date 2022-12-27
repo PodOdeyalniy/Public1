@@ -22,7 +22,7 @@ int main()
 
 	int x;
 	cin >> x;
-	double y;	
+	int y;	
 	cin >> y;
 
 	double xd, yd;
