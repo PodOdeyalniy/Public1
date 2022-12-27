@@ -20,16 +20,17 @@ int main()
 
 	// zd 1
 
-	double x;
+	int x;
 	cin >> x;
-	double y;	
+	int y;	
 	cin >> y;
 
-	double xd, yd;
+	double xd, yd, ymx;
 	xd = x % 1;
 	yd = y % 1;
 	x = x / 1;
 	y = y / 1;
+	ymx = y - x;
 
 	cout << x + y << "." << xd + yd;
 	return 0;
